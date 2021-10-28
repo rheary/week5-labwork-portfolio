@@ -1,0 +1,115 @@
+
+
+img.sml{ 
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	display: block;
+	
+}
+
+
+
+table{
+	width: 400px;
+	border-spacing: 5px;
+	margin: auto;
+	display: block;
+}
+
+th{
+	text-align: left;
+}
+
+table, th, td{
+	border: 1px solid #000;
+	padding: 1px;
+}
+
+caption{
+	font-size: 20px;
+	font-family: futura;
+}
+
+tr:nth-child(even){
+	background-color: #cd6155;
+}
+
+tr:nth-child(odd){
+	background-color: #f0b27a;
+}
+
+.skills{
+	font-size:20px;
+}
+
+body{
+	margin: 0;
+}
+
+h1,h2{
+    font-family: 'Noto Serif Display', serif;
+	text-align: center;
+}
+
+
+.header{
+	background-color: #cd6155;
+	height: 100px;
+	text-align: center;
+	color: #7b241c;
+    padding: 1px;
+}	
+
+.container{ 
+    padding: 1%;
+	box-sizing: border-box;
+	min-height: 800px;
+}
+
+.left-col, .right-col{
+	background-color: #f5cba7;
+	height: 760px;
+	width:25%;
+	float: left;
+}
+
+.center-col{
+	background-color: #cd6155;
+	height: 760px;
+	width:50%;
+	float: left;
+} 
+
+.footer{
+	clear: both;
+	font-family: 'Noto Serif Display', serif;
+	background-color: #cd6155;
+	text-align: center;
+	height: 50px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+/* On screens that are 800px or less, set the background color to orange */
+@media screen and (max-width: 800px) {
+  body {
+	background-color: grey;
+  }
+  img.sml{
+	width: 150px;
+	height: 150px;
+  }
+  
+  table{
+	  width: 200px;
+	  height: 50px;
+  }
+  
+  .left-col, .right-col{
+	  background-color: #fff;
+  }
+  
+  
+}
+  
+  
